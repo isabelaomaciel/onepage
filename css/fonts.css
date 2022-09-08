@@ -1,0 +1,17 @@
+@font-face {
+  src: url(../fonts/Merriweather-Regular.ttf);
+  font-family: "Merriweather";
+  font-weight: normal;
+}
+body {
+  font-family: "Merriweather";
+}
+
+@font-face {
+  src: url(../fonts/Lato-Regular.ttf);
+  font-family: "Lato-Regular";
+  font-weight: normal;
+}
+body {
+  font-family: "Lato-Regular";
+}

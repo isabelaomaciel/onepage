@@ -1,0 +1,65 @@
+header {
+  background-color: #d7d5ff;
+}
+
+header .container-header {
+  max-width: 100%;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+header .container-header .header-text {
+  flex-direction: column;
+  padding-left: 101px;
+  padding-top: 137.5px;
+  padding-bottom: 119px;
+  width: 50%;
+}
+
+header .container-header .header-text h1 {
+  font-size: 36px;
+  font-family: "Merriweather";
+  line-height: 47px;
+  font-weight: 400;
+  max-width: 349px;
+  margin-bottom: 17.5px;
+}
+
+header .container-header .header-text span {
+  display: block;
+  font-size: 19px;
+  font-family: "Lato-Regular";
+  font-weight: 400;
+  line-height: 32px;
+  color: #555555;
+  max-width: 389px;
+  margin-bottom: 45px;
+}
+
+header .container-header .header-text button {
+  background-color: #6c63ff;
+  width: 155px;
+  height: 50px;
+  color: #ffff;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: "Lato-regular";
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+}
+
+header .container-header .header-img {
+  padding-left: 347px;
+  padding-top: 77px;
+  padding-bottom: 123.25px;
+  padding-right: 104px;
+  display: flex;
+  width: 100%;
+}
+
+header .container-header .header-img img {
+  width: 500px;
+  height: 359.75px;
+}

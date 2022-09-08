@@ -1,0 +1,71 @@
+main {
+  width: 100%;
+}
+
+main .container {
+  padding: 150px 101px;
+  display: flex;
+  gap: 111px;
+  flex-wrap: wrap;
+}
+
+main .container .card {
+  width: 340px;
+  height: 423px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+main .container .card .card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  height: 50%;
+  width: 100%;
+}
+
+main .container .card .card-1 {
+  background-color: #ff6363;
+}
+
+main .container .card .card-2 {
+  background-color: #63ecff;
+}
+
+main .container .card .card-3 {
+  background-color: #f363ff;
+}
+
+main .container .card .card-4 {
+  background-color: #63ff73;
+}
+
+main .container .card .card-5 {
+  background-color: #ffdd63;
+}
+
+main .container .card .card-6 {
+  background-color: #6663ff;
+}
+
+main .container .card h3 {
+  margin-top: 24px;
+  margin-left: 30px;
+  margin-bottom: 26px;
+  font-family: "Merriweather";
+  font-size: 24px;
+  line-height: 30.17px;
+  font-weight: 700;
+}
+
+main .container .card p {
+  margin-left: 30px;
+  margin-right: 28px;
+  margin-bottom: 31px;
+  font-family: "Lato-regular";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #555;
+}
