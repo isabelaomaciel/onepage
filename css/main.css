@@ -7,6 +7,9 @@ main .container {
   display: flex;
   gap: 111px;
   flex-wrap: wrap;
+  max-width: 1242px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 main .container .card {

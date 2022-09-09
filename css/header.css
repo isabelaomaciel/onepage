@@ -27,13 +27,14 @@ header .container-header .header-text h1 {
 }
 
 header .container-header .header-text span {
-  display: block;
+  display: flex;
   font-size: 19px;
   font-family: "Lato-Regular";
   font-weight: 400;
   line-height: 32px;
   color: #555555;
   max-width: 389px;
+  width: 100%;
   margin-bottom: 45px;
 }
 
@@ -48,6 +49,13 @@ header .container-header .header-text button {
   font-weight: 700;
   line-height: 24px;
   border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+header .container-header .header-text button:hover {
+  background-color: #fff;
+  color: #6c63ff;
 }
 
 header .container-header .header-img {
